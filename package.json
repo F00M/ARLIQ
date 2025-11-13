@@ -1,0 +1,11 @@
+{
+  "name": "arcliq",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network arc"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.0"
+  }
+}
